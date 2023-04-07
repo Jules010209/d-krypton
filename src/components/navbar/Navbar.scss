@@ -73,6 +73,11 @@ nav {
         padding: 40px 0 0 10px;
         transition: 0.3s ease-in-out;
     }
+
+    #main-logo {
+        height: auto;
+        width: auto;
+    }
   
     #navbar.active {
         right: 0px;

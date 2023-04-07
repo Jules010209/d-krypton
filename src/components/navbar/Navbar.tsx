@@ -14,7 +14,7 @@ export class Navbar extends Component {
     render(): ReactNode {
         return (
             <nav>
-                <a href='/'><img alt='logo' src={logo}></img></a>
+                <a href='/'><img id='main-logo' alt='logo' width='65px' height='60px' src={logo}></img></a>
     
                 <div>
                     <ul id='navbar' className={this.state.clicked ? 'active' : ''}>
