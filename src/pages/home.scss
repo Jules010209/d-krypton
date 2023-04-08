@@ -1,0 +1,24 @@
+.box-columns {
+    column-count: 4;
+    column-gap: 40px;
+}
+
+@media screen and (max-width: 900px) {
+    .box-columns {
+        column-count: 2;
+        column-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box-columns {
+        column-count: 1;
+        column-gap: 5px;
+    }
+
+    .box {
+        margin: 15px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}

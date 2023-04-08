@@ -18,10 +18,10 @@ export class Navbar extends Component {
     
                 <div>
                     <ul id='navbar' className={this.state.clicked ? 'active' : ''}>
-                        <li><a href='/technologie'>Technologie</a></li>
-                        <li><a href='/technologie'>Informatique</a></li>
-                        <li><a href='/technologie'>Sciences de l'ingénieur</a></li>
-                        <li><a href='/technologie'>Aéronautique</a></li>
+                        <li><a href='/technology'>Technologie</a></li>
+                        <li><a href='/technology'>Informatique</a></li>
+                        <li><a href='/technology'>Sciences de l'ingénieur</a></li>
+                        <li><a href='/technology'>Aéronautique</a></li>
 
                         <li id='login'><a href='/login'>Connexion</a></li>
                     </ul>
