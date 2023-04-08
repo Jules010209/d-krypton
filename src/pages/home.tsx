@@ -19,7 +19,6 @@ export class Home extends Component {
                     <Box title='NSI' body={<div></div>} footer={<p>NSI</p>}/>
                     <Box title='SI' body={<div></div>} footer={<p>SI</p>}/>
                 </div>
-                
             </div>
         )
     }
