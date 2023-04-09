@@ -1,0 +1,27 @@
+.copyright {
+    text-align: left;
+    color: white;
+    font-size: large;
+}
+
+.btop {
+    text-align: right;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#ffooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1b2430;
+    flex-flow: row;
+    padding: 20px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+
+    position: relative;
+    clear: both;
+    height: 100px;
+    // margin-top: -200px;
+}

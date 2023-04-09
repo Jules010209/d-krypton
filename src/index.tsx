@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM, { Root } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 import './index.scss';
 
 import { App } from './App';
@@ -8,16 +8,19 @@ import reportWebVitals from './reportWebVitals';
 import { Navbar } from './components/navbar/Navbar';
 
 import { BrowserRouter } from 'react-router-dom';
+import { Footer } from './components/footer/Footer';
 
-const root: Root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
 root.render(
   <React.StrictMode>
-    <Navbar></Navbar>
+    <Navbar/>
 
     <BrowserRouter>
       <App/>
     </BrowserRouter>
+
+    <Footer/>
   </React.StrictMode>
 );
 
