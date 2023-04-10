@@ -8,7 +8,7 @@ export class Footer extends Component {
             <>
                 <footer id='ffooter'>
                     <p className='copyright'>
-                        &copy; 2023 Laurent Couvreur
+                        &copy; 2023 L.C
                     </p>
                     <p><a className='btop' href='#top'>Back to top</a></p>
                 </footer>

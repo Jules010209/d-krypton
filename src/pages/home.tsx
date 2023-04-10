@@ -13,7 +13,7 @@ export class Home extends Component {
                     <img alt="d-krypton" src={dk_logo}></img>
 
                     <p>Ce site est conçu pour aider les élèves de Viala Lacoste à travailler dans le cadre de leur cours.</p>
-                    
+                        
                     <br/>
 
                     <div className='box-columns'>
