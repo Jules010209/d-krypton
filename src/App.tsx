@@ -14,6 +14,7 @@ export class App extends Component {
                 {/* PRICIPAL ROUTES */}
                 <Route path='/technology' element={<div>tech</div>}></Route>
                 <Route path='/aeronautic' element={<div>aero</div>}></Route>
+                <Route path='/si' element={<div>si</div>}></Route>
 
                 {/* 404 PAGE */}
                 <Route path='*' element={<div>404</div>}></Route>

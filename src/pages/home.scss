@@ -22,3 +22,19 @@
         margin-right: 30px;
     }
 }
+
+.jumbotron {
+    height: 700px;
+}
+
+@media screen and (max-width: 500px) {
+    .jumbotron {
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px) {
+    .jumbotron {
+        height: 1000px;
+    }
+}
