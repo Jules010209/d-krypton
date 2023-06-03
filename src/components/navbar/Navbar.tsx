@@ -1,4 +1,5 @@
 import { Component, ReactNode } from 'react';
+import { motion } from 'framer-motion';
 
 import './Navbar.scss';
 
@@ -13,7 +14,7 @@ export class Navbar extends Component {
 
     render(): ReactNode {
         return (
-            <nav>
+            <motion.nav>
                 <a href='/'><img id='main-logo' alt='logo' width='65px' height='60px' src={logo}></img></a>
     
                 <div>
@@ -30,7 +31,7 @@ export class Navbar extends Component {
                 <div id='mobile' onClick={this.handleClick}>
                     <i id='bar' className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-            </nav>
+            </motion.nav>
         )   
     }
 }

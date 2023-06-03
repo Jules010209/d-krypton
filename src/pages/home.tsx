@@ -1,4 +1,5 @@
 import { Component, ReactNode } from 'react';
+import { motion } from 'framer-motion';
 
 import dk_logo from '../assets/logo-dkrypton.png';
 
@@ -9,7 +10,17 @@ export class Home extends Component {
     render(): ReactNode {
         return (
             <>
-                <div className='jumbotron'>
+                <motion.div className='jumbotron'
+                    initial={{
+                        opacity: 0
+                    }} 
+                    transition={{
+                        duration: .5
+                    }}
+                    animate={{
+                        opacity: 1
+                    }}
+                >
                     <img alt="d-krypton" src={dk_logo}></img>
 
                     <p>Ce site est conçu pour aider les élèves de Viala Lacoste à travailler dans le cadre de leur cours.</p>
@@ -22,7 +33,7 @@ export class Home extends Component {
                         <Box title='NSI' body={<div></div>} footer={<p>NSI</p>}/>
                         <Box title='SI' body={<div></div>} footer={<p>SI</p>}/>
                     </div>
-                </div>
+                </motion.div>
             </>
         )
     }
