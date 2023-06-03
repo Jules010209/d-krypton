@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/d-krypton/static/css/main.d7805662.css",
+    "main.js": "/d-krypton/static/js/main.e3a2f4e0.js",
+    "static/js/787.015f1d2b.chunk.js": "/d-krypton/static/js/787.015f1d2b.chunk.js",
+    "index.html": "/d-krypton/index.html",
+    "main.d7805662.css.map": "/d-krypton/static/css/main.d7805662.css.map",
+    "main.e3a2f4e0.js.map": "/d-krypton/static/js/main.e3a2f4e0.js.map",
+    "787.015f1d2b.chunk.js.map": "/d-krypton/static/js/787.015f1d2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7805662.css",
+    "static/js/main.e3a2f4e0.js"
+  ]
+}
